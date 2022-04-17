@@ -2,23 +2,42 @@
 <html>
 <head>
     <title>My Homework Week 17</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <!-- always start with ./ -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- this is to make sure your browser pickes the screen resize -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <header>
-        <div class="inline-block, blogo">
-        <img src="Logo.png" alt="Live Your Best Life">
-        <nav class="inline-block">
-            <li>"about"</li>
-            <li>"skills"</li>
-            <li>"work"</li>
-            <li>"contact"</li>
+        <img src="./img/logo.png" alt="Live Your Best Life" class="logo">
+        <nav>
+            <ul class="navItems">
+                <li class="navItem">
+                    <a href="#">
+                        about
+                    </a>
+                </li>
+                <li class="navItem">
+                    <a href="#">
+                        skills
+                    </a>
+                </li>
+                <li class="navItem">
+                    <a href="#">
+                        work
+                    </a>
+                </li>
+                <li class="navItem">
+                    <a href="#">
+                        contact
+                    </a>
+                </li>
+            </ul>
         </nav>
-        </div>
     </header>
-    <div class="heroImg">
+    <div>
         <div class="content">
-            <img src="profilepic.png" alt="my face">
+            <img src="./img/placeholder.png" alt="my face" class="heroImg">
             <p>I’m a UX designer who is passionate about psychology and it’s influence in design. I’m a strong believer in continuing to learn and grow in every aspect of our lives, and strive to be the best I can be.</p>
             <button type="button">Download Resume</button>
         </div>
