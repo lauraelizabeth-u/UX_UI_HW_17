@@ -1,15 +1,32 @@
+header {
+    background-color: lavender;
+    display: flex;
+    justify-content: space-between;
+}
+.nav {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+.navItem {
+    display: inline-block;
+    padding: 10px 20px;
+}
 .inline-block {
     display: inline-block;
     padding: 1%;
     vertical-align: top;
 }
 .logo {
-    width: 23%;
+    height: 90px;
     padding: 1%;
     text-align: center;
 }
+a {
+    text-decoration: none;
+}
 .nav {
-    width: 73%;
     padding: 1%;
 }
 .ul {
