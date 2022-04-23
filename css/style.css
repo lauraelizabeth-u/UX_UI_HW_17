@@ -1,8 +1,15 @@
+body {
+    margin: 0;
+}
 header {
     background-color: lavender;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.logo {
+    height: 30px;
+    padding: 20%;
 }
 .nav {
     list-style: none;
@@ -19,11 +26,7 @@ header {
     padding: 1%;
     vertical-align: top;
 }
-.logo {
-    height: 90px;
-    padding: 1%;
-    text-align: center;
-}
+
 a {
     text-decoration: none;
 }
@@ -53,4 +56,7 @@ a {
 }
 .class {
     background-image: url(../images/Logo.png);
+}
+.content img {
+    width: 350px;
 }
