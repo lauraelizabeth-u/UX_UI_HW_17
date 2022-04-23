@@ -2,6 +2,7 @@ header {
     background-color: lavender;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .nav {
     list-style: none;
@@ -49,4 +50,7 @@ a {
     display: inline-block;
     vertical-align: top;
     padding: 10%;
+}
+.class {
+    background-image: url(../images/Logo.png);
 }
